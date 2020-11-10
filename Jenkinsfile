@@ -1,5 +1,4 @@
 pipeline {
-    // facultative
     triggers {
         pollSCM('* * * * *')
     }
