@@ -1,6 +1,8 @@
 pipeline {
     // facultative
-        
+    triggers {
+        pollSCM('* * * * *')
+    }
     agent any
 
     stages {
